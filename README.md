@@ -1,6 +1,6 @@
-# Airbnb Clone - PlayPowerLabs Assignment
+# Airbnb Clone 
 
-This is a pixel-perfect clone of an Airbnb listing page, built using React (Vite) and Node.js (Express).
+
 
 ## Architecture & Tech Stack
 
