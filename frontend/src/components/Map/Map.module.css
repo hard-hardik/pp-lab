@@ -1,0 +1,213 @@
+.container {
+  padding: 48px 0;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #222222;
+  margin: 0 0 16px 0;
+}
+
+.addressLine {
+  font-size: 16px;
+  color: #222222;
+  margin-bottom: 24px;
+}
+
+.mapWrapper {
+  width: 100%;
+  height: 480px;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.mapPlaceholder {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: #ebede9; /* light green base */
+}
+
+/* Diagonal split for ocean */
+.ocean {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #b3d4e5; /* ocean blue */
+  clip-path: polygon(0 0, 42% 0, 25% 100%, 0 100%);
+  z-index: 1;
+}
+
+.land {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #e9efe0; /* land green */
+  clip-path: polygon(42% 0, 100% 0, 100% 100%, 25% 100%);
+  z-index: 1;
+}
+
+/* Decorative circles like in the image */
+.circle1 {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  width: 90px;
+  height: 90px;
+  background-color: #d1e5c5;
+  border-radius: 50%;
+  z-index: 2;
+  transform: translate(-50%, -50%);
+}
+
+.circle2 {
+  position: absolute;
+  bottom: 30%;
+  right: 30%;
+  width: 140px;
+  height: 140px;
+  background-color: #d1e5c5;
+  border-radius: 50%;
+  z-index: 2;
+  transform: translate(50%, 50%);
+}
+
+.gridOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    linear-gradient(rgba(0,0,0,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,0,0,0.03) 1px, transparent 1px);
+  background-size: 80px 80px;
+  z-index: 3;
+}
+
+.searchBtn {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.zoomControls {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  z-index: 5;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.zoomBtn {
+  width: 40px;
+  height: 40px;
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #222222;
+}
+
+.zoomBtn:first-child {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.zoomBtn:hover, .searchBtn:hover {
+  background-color: #f7f7f7;
+}
+
+.pinContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 4;
+}
+
+.pinBackground {
+  width: 64px;
+  height: 64px;
+  background-color: #222222;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.pinIcon {
+  color: white;
+}
+
+.exactLocationText {
+  font-size: 16px;
+  color: #222222;
+  margin-bottom: 32px;
+}
+
+.highlightsContainer {
+  margin-top: 32px;
+}
+
+.highlightsTitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: #222222;
+  margin: 0 0 16px 0;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 24px;
+  color: #222222;
+  margin: 0 0 16px 0;
+}
+
+.showMoreBtn {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #222222;
+  text-decoration: underline;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.chevron {
+  margin-top: 2px;
+}
+
+.divider {
+  border-top: 1px solid #dddddd;
+  margin-top: 48px;
+}

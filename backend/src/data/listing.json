@@ -1,0 +1,155 @@
+{
+  "id": "listing_001",
+  "title": "Romantic Jacuzzi | BHK Candolim · Hirashya UG19",
+  "subtitle": "Entire serviced apartment in Candolim, India",
+  "host": {
+    "name": "Jeremie and Chloe",
+    "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=64&h=64&fit=crop&crop=face",
+    "isSuperhost": true,
+    "hostingSince": "2018",
+    "responseRate": 100,
+    "responseTime": "within an hour"
+  },
+  "details": {
+    "guests": 2,
+    "bedrooms": 1,
+    "beds": 1,
+    "bathrooms": 1
+  },
+  "highlights": [
+    { "icon": "door", "title": "Self check-in", "description": "Check yourself in with the lockbox." },
+    { "icon": "star", "title": "Jeremie and Chloe is a Superhost", "description": "Superhosts are experienced, highly rated hosts who are committed to providing great stays for guests." },
+    { "icon": "location", "title": "Great location", "description": "95% of recent guests gave the location a 5-star rating." }
+  ],
+  "description": "Welcome to Hirashya UG19, a romantic 1BHK serviced apartment located in the heart of Candolim, Goa. This cozy retreat features a private jacuzzi, perfect for couples looking for a relaxing getaway.\n\nThe apartment is tastefully furnished with modern amenities and warm décor. Enjoy the spacious living area with comfortable seating, a fully equipped kitchen, and a bedroom with premium bedding. The highlight of the apartment is the private jacuzzi, perfect for unwinding after a day exploring Goa's beautiful beaches.\n\nLocated just minutes from Candolim Beach, you'll have easy access to restaurants, shops, and nightlife. The apartment also features high-speed WiFi, air conditioning, and a dedicated workspace.",
+  "photos": [
+    { "id": 1, "url": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=1200&h=800&fit=crop", "caption": "Living Room", "room": "Livingroom 1" },
+    { "id": 2, "url": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&h=600&fit=crop", "caption": "Living Area", "room": "Livingroom 2" },
+    { "id": 3, "url": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&h=600&fit=crop", "caption": "Bedroom", "room": "Bedroom" },
+    { "id": 4, "url": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&h=600&fit=crop", "caption": "Bathroom", "room": "Bathroom" },
+    { "id": 5, "url": "https://images.unsplash.com/photo-1585412727339-54e4bae3bbf9?w=800&h=600&fit=crop", "caption": "Jacuzzi", "room": "Bathroom" },
+    { "id": 6, "url": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop", "caption": "Exterior", "room": "Exterior" },
+    { "id": 7, "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=600&fit=crop", "caption": "Pool Area", "room": "Common Area" },
+    { "id": 8, "url": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=800&h=600&fit=crop", "caption": "Kitchen", "room": "Full kitchen" },
+    { "id": 9, "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop", "caption": "Dining Area", "room": "Dining" },
+    { "id": 10, "url": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&h=600&fit=crop", "caption": "Balcony View", "room": "Balcony" },
+    { "id": 11, "url": "https://images.unsplash.com/photo-1600573472592-401b489a3cdc?w=800&h=600&fit=crop", "caption": "Night View", "room": "Exterior" },
+    { "id": 12, "url": "https://images.unsplash.com/photo-1560185893-a55cbc8c57e8?w=800&h=600&fit=crop", "caption": "Bedroom Detail", "room": "Bedroom" },
+    { "id": 13, "url": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&h=600&fit=crop", "caption": "Living Room Detail", "room": "Livingroom 3" },
+    { "id": 14, "url": "https://images.unsplash.com/photo-1560448075-bb485b067938?w=800&h=600&fit=crop", "caption": "Bathroom Detail", "room": "Bathroom" },
+    { "id": 15, "url": "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800&h=600&fit=crop", "caption": "Front View", "room": "Exterior" }
+  ],
+  "amenities": [
+    { "icon": "wifi", "name": "Wifi", "available": true },
+    { "icon": "tv", "name": "TV", "available": true },
+    { "icon": "kitchen", "name": "Kitchen", "available": true },
+    { "icon": "washer", "name": "Washer", "available": true },
+    { "icon": "parking", "name": "Free parking on premises", "available": true },
+    { "icon": "ac", "name": "Air conditioning", "available": true },
+    { "icon": "workspace", "name": "Dedicated workspace", "available": true },
+    { "icon": "pool", "name": "Pool", "available": true },
+    { "icon": "hotTub", "name": "Private hot tub", "available": true },
+    { "icon": "patio", "name": "Patio or balcony", "available": true },
+    { "icon": "bbq", "name": "BBQ grill", "available": true },
+    { "icon": "firepit", "name": "Fire pit", "available": false },
+    { "icon": "gym", "name": "Exercise equipment", "available": true },
+    { "icon": "breakfast", "name": "Breakfast", "available": true },
+    { "icon": "iron", "name": "Iron", "available": true },
+    { "icon": "hairDryer", "name": "Hair dryer", "available": true },
+    { "icon": "hangers", "name": "Hangers", "available": true },
+    { "icon": "essentials", "name": "Essentials", "available": true },
+    { "icon": "shampoo", "name": "Shampoo", "available": true },
+    { "icon": "hotWater", "name": "Hot water", "available": true }
+  ],
+  "rating": {
+    "overall": 4.85,
+    "totalReviews": 124,
+    "categories": {
+      "cleanliness": 4.9,
+      "accuracy": 4.8,
+      "checkIn": 5.0,
+      "communication": 4.9,
+      "location": 4.7,
+      "value": 4.8
+    }
+  },
+  "reviews": [
+    {
+      "id": 1,
+      "author": "Sarah",
+      "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=48&h=48&fit=crop&crop=face",
+      "date": "October 2024",
+      "rating": 5,
+      "text": "Amazing place! The jacuzzi was the highlight of our trip. The apartment was clean, well-maintained, and perfectly located near the beach. Jeremie and Chloe were wonderful hosts.",
+      "location": "Mumbai, India"
+    },
+    {
+      "id": 2,
+      "author": "Michael",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=48&h=48&fit=crop&crop=face",
+      "date": "September 2024",
+      "rating": 5,
+      "text": "Perfect romantic getaway. The apartment exceeded our expectations. Beautifully decorated, spotlessly clean, and the private jacuzzi was a real treat. Highly recommend!",
+      "location": "Delhi, India"
+    },
+    {
+      "id": 3,
+      "author": "Priya",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=48&h=48&fit=crop&crop=face",
+      "date": "September 2024",
+      "rating": 4,
+      "text": "Great location and lovely apartment. The jacuzzi was amazing. Only minor issue was the WiFi speed, but everything else was perfect. Would definitely stay again.",
+      "location": "Bangalore, India"
+    },
+    {
+      "id": 4,
+      "author": "David",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=48&h=48&fit=crop&crop=face",
+      "date": "August 2024",
+      "rating": 5,
+      "text": "Absolutely loved this place. The hosts were incredibly responsive and helpful. The apartment was exactly as described, and the jacuzzi was the cherry on top. Perfect for our anniversary trip.",
+      "location": "London, UK"
+    },
+    {
+      "id": 5,
+      "author": "Ananya",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=48&h=48&fit=crop&crop=face",
+      "date": "August 2024",
+      "rating": 5,
+      "text": "Stunning apartment in a prime location. Walking distance to the beach and great restaurants. The interior design is beautiful and the bed was super comfortable.",
+      "location": "Pune, India"
+    },
+    {
+      "id": 6,
+      "author": "James",
+      "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=48&h=48&fit=crop&crop=face",
+      "date": "July 2024",
+      "rating": 5,
+      "text": "We had an incredible stay! The apartment is modern, clean, and has everything you need. The jacuzzi is perfect after a long day at the beach. Hosts are very accommodating.",
+      "location": "Sydney, Australia"
+    }
+  ],
+  "pricing": {
+    "perNight": 3850,
+    "currency": "₹",
+    "cleaningFee": 500,
+    "serviceFee": 1200,
+    "nights": 5
+  },
+  "location": {
+    "address": "Candolim, Goa, India",
+    "lat": 15.5170,
+    "lng": 73.7620,
+    "description": "Located in the heart of Candolim, just a 5-minute walk from Candolim Beach. Close to popular restaurants, cafes, and shops. The area is safe and well-connected.",
+    "highlights": ["5 min walk to Candolim Beach", "Close to restaurants & cafes", "Safe & well-connected neighborhood"]
+  },
+  "houseRules": {
+    "checkIn": "2:00 PM - 10:00 PM",
+    "checkOut": "11:00 AM",
+    "maxGuests": 2,
+    "smoking": false,
+    "pets": false,
+    "parties": false
+  },
+  "cancellationPolicy": "Free cancellation for 48 hours. After that, cancel up to 7 days before check-in and get a 50% refund, minus the service fee."
+}

@@ -1,0 +1,154 @@
+.container {
+  padding: 32px 0;
+}
+
+.headerTitle {
+  font-size: 22px;
+  font-weight: 600;
+  color: #222222;
+  margin: 0 0 32px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.starIcon {
+  font-size: 18px;
+  margin-top: -2px;
+}
+
+.categoriesGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 16px;
+  column-gap: 80px;
+  margin-bottom: 48px;
+}
+
+.categoryItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.categoryName {
+  font-size: 16px;
+  color: #222222;
+}
+
+.scoreContainer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 140px;
+}
+
+.progressBar {
+  flex: 1;
+  height: 4px;
+  background-color: #dddddd;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  background-color: #222222;
+  border-radius: 2px;
+}
+
+.scoreValue {
+  font-size: 12px;
+  font-weight: 600;
+  color: #222222;
+  min-width: 24px;
+}
+
+.reviewsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 40px;
+  column-gap: 80px;
+  margin-bottom: 40px;
+}
+
+.reviewCard {
+  display: flex;
+  flex-direction: column;
+}
+
+.reviewerInfo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.reviewerDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.reviewerName {
+  font-size: 16px;
+  font-weight: 600;
+  color: #222222;
+}
+
+.reviewDate {
+  font-size: 14px;
+  color: #717171;
+}
+
+.reviewText {
+  font-size: 16px;
+  line-height: 24px;
+  color: #222222;
+  margin: 0 0 8px 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.showMoreBtn {
+  background: none;
+  border: none;
+  padding: 0;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: underline;
+  color: #222222;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.showAllReviewsBtn {
+  background: none;
+  border: 1px solid #222222;
+  border-radius: 8px;
+  padding: 13px 23px;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  color: #222222;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.showAllReviewsBtn:hover {
+  background-color: #f7f7f7;
+}
+
+.divider {
+  border-top: 1px solid #dddddd;
+  margin-top: 48px;
+}

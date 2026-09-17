@@ -1,0 +1,48 @@
+.container {
+  padding: 48px 0;
+  border-top: 1px solid #dddddd;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #222222;
+  margin: 0 0 24px 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.iconWrapper {
+  margin-bottom: 16px;
+  color: #222222;
+}
+
+.columnTitle {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 0 12px 0;
+  color: #222222;
+}
+
+.text {
+  font-size: 16px;
+  color: #222222;
+  margin: 0 0 12px 0;
+  line-height: 24px;
+}
+
+.linkBtn {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #222222;
+  margin-top: 4px;
+}

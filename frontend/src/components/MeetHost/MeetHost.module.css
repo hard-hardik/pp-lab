@@ -1,0 +1,220 @@
+.container {
+  padding: 48px 0;
+  border-top: 1px solid #dddddd;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #222222;
+  margin: 0 0 24px 0;
+}
+
+.content {
+  display: flex;
+  gap: 8%;
+}
+
+.leftCol {
+  flex: 1 1 35%;
+}
+
+.rightCol {
+  flex: 1 1 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.hostCard {
+  background: white;
+  border-radius: 24px;
+  padding: 32px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+  margin-bottom: 24px;
+  border: 1px solid #dddddd;
+}
+
+.cardHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.avatarWrapper {
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.avatarMain {
+  width: 104px;
+  height: 104px;
+  background-color: #173b32;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-family: serif;
+}
+
+.verifiedBadge {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 32px;
+  height: 32px;
+  background-color: #e51d53;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
+  font-weight: bold;
+}
+
+.hostNames h3 {
+  font-size: 26px;
+  font-weight: 600;
+  margin: 0 0 4px 0;
+}
+
+.hostNames p {
+  margin: 0;
+  color: #717171;
+  font-size: 14px;
+}
+
+.statsRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.statBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.statValue {
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.star {
+  font-size: 12px;
+}
+
+.statLabel {
+  font-size: 12px;
+  color: #717171;
+}
+
+.divider {
+  width: 1px;
+  height: 32px;
+  background-color: #dddddd;
+}
+
+.personalDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-left: 16px;
+}
+
+.detailItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 16px;
+  color: #222222;
+}
+
+.detailIcon {
+  font-size: 24px;
+  color: #222222;
+}
+
+.sectionBlock h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 16px 0;
+  color: #222222;
+}
+
+.sectionBlock p {
+  margin: 0 0 8px 0;
+  color: #222222;
+}
+
+.cohostsGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 16px;
+  column-gap: 16px;
+}
+
+.cohostItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.cohostAvatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.cohostAvatarFallback {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.cohostName {
+  font-size: 16px;
+  color: #222222;
+}
+
+.messageBtn {
+  margin-top: 24px;
+  padding: 14px 24px;
+  background: #222222;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.paymentWarning {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: 12px;
+  color: #717171;
+  margin-top: 16px;
+}
+
+.shieldIcon {
+  font-size: 20px;
+  flex-shrink: 0;
+}

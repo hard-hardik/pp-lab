@@ -1,0 +1,166 @@
+.header {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 100;
+  height: 80px;
+  border-bottom: 1px solid #ebebeb;
+  transition: box-shadow 0.2s ease;
+}
+
+.scrolled {
+  box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  color: #ff385c;
+  cursor: pointer;
+  flex: 1;
+}
+
+.logoIcon {
+  font-size: 32px;
+}
+
+.logoText {
+  font-size: 22px;
+  font-weight: 700;
+  margin-left: 6px;
+  letter-spacing: -0.5px;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  border: 1px solid #dddddd;
+  border-radius: 40px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.08), 0 4px 12px rgba(0,0,0,0.05);
+  transition: box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.searchBar:hover {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.18);
+}
+
+.searchBtn {
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 14px 16px;
+  cursor: pointer;
+  color: #222222;
+}
+
+.addGuests {
+  font-weight: 400;
+  color: #717171;
+}
+
+.divider {
+  width: 1px;
+  height: 24px;
+  background-color: #dddddd;
+}
+
+.searchIconWrapper {
+  background-color: #ff385c;
+  color: white;
+  border-radius: 50%;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+}
+
+.searchIcon {
+  font-size: 14px;
+  stroke-width: 3;
+}
+
+.rightNav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.hostLink {
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  color: #222222;
+  padding: 12px;
+  border-radius: 22px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.hostLink:hover {
+  background-color: #f7f7f7;
+}
+
+.globeBtn {
+  background: none;
+  border: none;
+  padding: 12px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #222222;
+  transition: background-color 0.2s;
+  margin-right: 8px;
+}
+
+.globeBtn:hover {
+  background-color: #f7f7f7;
+}
+
+.globeIcon {
+  font-size: 18px;
+}
+
+.profileMenu {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: 1px solid #dddddd;
+  border-radius: 24px;
+  padding: 5px 5px 5px 12px;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease;
+  gap: 12px;
+}
+
+.profileMenu:hover {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.18);
+}
+
+.menuIcon {
+  font-size: 16px;
+  color: #222222;
+}
+
+.avatarIcon {
+  font-size: 30px;
+  color: #717171;
+}

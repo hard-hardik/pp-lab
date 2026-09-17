@@ -1,0 +1,95 @@
+.headerContainer {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 600;
+  color: #222222;
+  margin: 0 0 8px 0;
+  line-height: 1.2;
+}
+
+.subHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  color: #222222;
+}
+
+.leftInfo {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+.ratingInfo {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.starIcon {
+  font-size: 14px;
+}
+
+.reviews {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.dot {
+  margin: 0 8px;
+}
+
+.superhost {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #717171;
+}
+
+.medalIcon {
+  font-size: 14px;
+}
+
+.location {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.rightActions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.actionBtn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  color: #222222;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+}
+
+.actionBtn:hover {
+  background-color: #f7f7f7;
+}
+
+.actionIcon {
+  font-size: 16px;
+}
+
+.actionText {
+  text-decoration: underline;
+}

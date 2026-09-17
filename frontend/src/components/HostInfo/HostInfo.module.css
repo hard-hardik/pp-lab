@@ -1,0 +1,85 @@
+.container {
+  padding: 32px 0 0 0;
+}
+
+.hostHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 24px;
+}
+
+.hostText {
+  flex: 1;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #222222;
+  margin: 0 0 4px 0;
+}
+
+.capacity {
+  font-size: 16px;
+  color: #222222;
+  display: flex;
+  align-items: center;
+}
+
+.dot {
+  margin: 0 4px;
+}
+
+.avatarContainer {
+  margin-left: 24px;
+}
+
+.avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.divider {
+  border-top: 1px solid #dddddd;
+  margin: 8px 0;
+}
+
+.highlights {
+  padding: 24px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.highlightItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.highlightIcon {
+  font-size: 24px;
+  color: #222222;
+  margin-top: 2px;
+}
+
+.highlightText {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.highlightTitle {
+  font-size: 16px;
+  font-weight: 600;
+  color: #222222;
+}
+
+.highlightDesc {
+  font-size: 14px;
+  color: #717171;
+  line-height: 20px;
+}

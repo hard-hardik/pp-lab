@@ -1,0 +1,141 @@
+.card {
+  position: sticky;
+  top: 100px;
+  background-color: #fff;
+  border: 1px solid #dddddd;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+  width: 100%;
+}
+
+.header {
+  margin-bottom: 24px;
+}
+
+.priceContainer {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+}
+
+.price {
+  font-size: 22px;
+  font-weight: 600;
+  color: #222222;
+}
+
+.night {
+  font-size: 16px;
+  color: #222222;
+}
+
+.formContainer {
+  border: 1px solid #b0b0b0;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+
+.datePickerRow {
+  display: flex;
+  border-bottom: 1px solid #b0b0b0;
+}
+
+.dateBox, .dateBoxRight {
+  flex: 1;
+  padding: 10px 12px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.dateBoxRight {
+  border-left: 1px solid #b0b0b0;
+}
+
+.label {
+  font-size: 10px;
+  font-weight: 800;
+  color: #222222;
+  margin-bottom: 2px;
+}
+
+.value {
+  font-size: 14px;
+  color: #222222;
+}
+
+.guestBox {
+  padding: 10px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.guestContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.chevron {
+  font-size: 16px;
+  color: #222222;
+}
+
+.reserveBtn {
+  width: 100%;
+  height: 48px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(to right, #E61E4D 0%, #E31C5F 50%, #D70466 100%);
+  color: white;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 16px;
+  transition: opacity 0.2s;
+}
+
+.reserveBtn:hover {
+  opacity: 0.9;
+}
+
+.chargeText {
+  text-align: center;
+  font-size: 14px;
+  color: #222222;
+  margin: 0 0 24px 0;
+}
+
+.priceBreakdown {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.priceRow {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: #222222;
+}
+
+.lineItem {
+  text-decoration: underline;
+}
+
+.divider {
+  border-top: 1px solid #dddddd;
+  margin: 24px 0;
+}
+
+.totalRow {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 600;
+  color: #222222;
+}

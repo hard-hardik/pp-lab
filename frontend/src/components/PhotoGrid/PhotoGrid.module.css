@@ -1,0 +1,88 @@
+.gridContainer {
+  display: flex;
+  gap: 8px;
+  border-radius: 12px;
+  overflow: hidden;
+  height: 400px;
+  position: relative;
+}
+
+.mainPhotoWrapper {
+  flex: 1;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.secondaryGrid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 8px;
+}
+
+.photoWrapper {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.photoWrapper::after, .mainPhotoWrapper::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: transparent;
+  transition: background-color 0.2s ease;
+}
+
+.gridContainer:hover .mainPhotoWrapper:hover::after,
+.gridContainer:hover .photoWrapper:hover::after {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.gridContainer:hover .mainPhotoWrapper:not(:hover)::after,
+.gridContainer:hover .photoWrapper:not(:hover)::after {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.showAllBtn {
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
+  background-color: #fff;
+  border: 1px solid #222222;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: transform 0.1s ease, background-color 0.2s ease;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.showAllBtn:hover {
+  background-color: #f7f7f7;
+}
+
+.showAllBtn:active {
+  transform: scale(0.96);
+}
+
+.gridIcon {
+  font-size: 16px;
+}
