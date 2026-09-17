@@ -1,0 +1,20 @@
+{
+  "version": "1.0",
+  "project_name": "airbnb-clone",
+  "strict_mode": true,
+  "custom_instructions_file": "CLAUDE.md",
+  "agent_roles_file": "AGENTS.md",
+  "linting": {
+    "enabled": true,
+    "framework": "eslint-plugin-react"
+  },
+  "deployment": {
+    "frontend": "netlify",
+    "backend": "render"
+  },
+  "allowed_tools": [
+    "file_system",
+    "terminal",
+    "linter"
+  ]
+}
